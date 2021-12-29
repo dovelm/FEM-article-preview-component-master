@@ -99,7 +99,7 @@ body{
     color:var(--secundary-font);
     font-size: 16px;
 }
-.btn-share{
+.icon-share{
     margin-top: 10px;
     margin-left: 150px;
     width: 28px;
@@ -116,8 +116,9 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-family: var(--primary-font-family);
 }
-.btn-share .tooltip{
+.icon-share .tooltip{
     visibility: hidden;
     width: 250px;
     background-color:hsl(217, 19%, 35%);
@@ -138,7 +139,7 @@ body{
     font-weight: 500;
     letter-spacing: 2px;
 }
-.btn-share .tooltip::after{
+.icon-share .tooltip::after{
     content: "";
     position: absolute;
     top: 100%;
@@ -148,11 +149,11 @@ body{
     border-style: solid;
     border-color: hsl(217, 19%, 35%) transparent transparent transparent;
 }
-.btn-share:hover .tooltip{
+.icon-share:hover .tooltip{
     visibility: visible;
     opacity: 1;
 }
-.btn-share:hover .icon-redo2{
+.icon-share:hover .icon-redo2{
     background-color: var(--primary-color);
     color:var(--neutral-white);
 }
@@ -201,7 +202,7 @@ footer{
 }
 /*Media queries*/
 
-@media (max-width: 730px){
+@media (max-width: 840px){
     .container{
         display: flex;
         flex-direction: column;
@@ -222,7 +223,7 @@ footer{
      }
      .article{
         width: 350px;
-        height: 320px;
+        height: 325px;
         background-color: var(--neutral-white);
         border-radius: 0 0 8px 8px;
         box-shadow: 0 2px 10px 0px rgba(0,0,0,0.12);
@@ -232,31 +233,28 @@ footer{
         font-size: 18px;
     }
     .article-text{
-        margin: 0 25px 30px 30px;
-        padding-right: 10px;
+        margin: 0 15px 30px 30px;
+        padding-right: 8px;
         font-size: 15px;
     }
     .title{
         margin-bottom: 5px;
     }
-    .btn-share{
-        margin-left: 95px;
-    }
-    .avatar{
-        margin-left: 30px;
+    .icon-share{
+        margin-left: 88px;
     }
     .img-avatar{
         margin-right: 15px;
     }
-    .btn-share .tooltip{
+    .icon-share .tooltip{
         width: 350px;
-        padding-top: 18px;
-        padding-bottom: 18px;
+        padding-top: 20px;
+        padding-bottom: 26px;
         border-radius: 0 0 8px 8px;
-        bottom: -15px;
-        left: -176px;
+        bottom: -18px;
+        left: -181px;
     }
-    .btn-share .tooltip::after{
+    .icon-share .tooltip::after{
         top:0;
         left: 0;
         margin-left: 0;
@@ -264,7 +262,7 @@ footer{
     }
     .icon-hidden .icon-redo2{
         visibility: visible;
-        margin-left: 88px;
+        margin-left: 95px;
         margin-bottom: 20px;
         padding: 6px;
         background-color: var(--secundary-font);
@@ -274,7 +272,7 @@ footer{
         color:var(--neutral-white);
         font-size: 16px;
     }
-    .btn-share:hover .icon-hidden .icon-redo2{
+    .icon-share:hover .icon-hidden .icon-redo2{
         background-color: var(--secundary-font);
         color:var(--neutral-white);
     }
