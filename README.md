@@ -24,7 +24,7 @@
 
 Users should be able to:
 
-- Create a NFT preview card component 
+- Article preview component
 
 ### Screenshots
 
