@@ -30,9 +30,9 @@ Users should be able to:
 
 ![](https://github.com/dusvimarin/FEM-article-preview-component-master/blob/main/screenshots/desktop.png)
 
-![](https://github.com/dusvimarin/FEM-article-preview-component-master/blob/main/screenshots/mobile.jpeg)
+![](https://github.com/dusvimarin/FEM-article-preview-component-master/blob/main/screenshots/mobile.png)
 
-![](https://github.com/dusvimarin/FEM-article-preview-component-master/blob/main/screenshots/mobile%20active.jpeg)
+
 
 
 ### Links
