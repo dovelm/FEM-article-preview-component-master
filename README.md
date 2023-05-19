@@ -24,18 +24,20 @@
 
 Users should be able to:
 
-- Create a NFT preview card component 
+- Article preview component
 
 ### Screenshots
 
-![]()
+![](https://github.com/dusvimarin/FEM-article-preview-component-master/blob/main/screenshots/desktop.png)
 
-![]()
+![](https://github.com/dusvimarin/FEM-article-preview-component-master/blob/main/screenshots/mobile.jpeg)
+
+![](https://github.com/dusvimarin/FEM-article-preview-component-master/blob/main/screenshots/mobile%20active.jpeg)
 
 
 ### Links
 
-[My Solution]()
+[My Solution](https://dusvimarin.github.io/FEM-article-preview-component-master)
 
 
 ## My process
